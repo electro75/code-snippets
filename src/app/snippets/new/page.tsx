@@ -18,9 +18,7 @@ export default function createSnippetPage () {
                 code
             }
         })
-        console.log(snippet);
-
-        // show confirmation, navigate to home
+        
         redirect('/');
 
     }
